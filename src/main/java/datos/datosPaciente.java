@@ -14,7 +14,7 @@ public class datosPaciente {
     private Long cui;
     private String nombre;
     private String dic;
-    private Date fecha;
+    private String fecha;
     private Long tel;
     private String sexo;
     private String depa;
@@ -44,11 +44,11 @@ public class datosPaciente {
         this.dic = dic;
     }
 
-    public Date getFecha() {
+    public String getFecha() {
         return fecha;
     }
 
-    public void setFecha(Date fecha) {
+    public void setFecha(String fecha) {
         this.fecha = fecha;
     }
 
